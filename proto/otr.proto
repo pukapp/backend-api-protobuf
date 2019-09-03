@@ -25,7 +25,7 @@ message NewOtrMessage {
     repeated UserEntry recipients  = 2;
     optional bool      native_push = 3 [default = true];
     optional bytes     blob        = 4;
-    optional bool      unblock     = 5 [default = false];
+    optional bool      unblock     = 100 [default = false];
 }
 
 message OtrAssetMeta {
