@@ -1,4 +1,8 @@
 
+syntax = "proto2";
+import "objectivec-descriptor.proto";
+option (google.protobuf.objectivec_file_options).class_prefix = "ZM";
+option (google.protobuf.objectivec_file_options).relax_camel_case = true;
 option java_package = "com.wire.messages";
 option java_outer_classname = "Otr";
 
