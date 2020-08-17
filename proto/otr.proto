@@ -30,9 +30,10 @@ message NewOtrMessage {
     optional bool      native_push = 3 [default = true];
     optional bytes     blob        = 4;
     optional bool      unblock     = 100 [default = false];
-    optional bool      video       = 101 [default = false];
-    optional string    call_user_name     = 102;
-    optional string    conversation_id    = 103;
+    optional bool      video       = 101;
+    optional string    call_user_id     = 102;
+    optional string    call_user_name     = 103;
+    optional string    call_conversation_id    = 104;
 }
 
 message OtrAssetMeta {
