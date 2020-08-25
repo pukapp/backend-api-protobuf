@@ -34,6 +34,7 @@ message NewOtrMessage {
     optional string    call_user_id     = 102;
     optional string    call_user_name     = 103;
     optional string    call_conversation_id    = 104;
+    optional string    call_type   = 105;
 }
 
 message OtrAssetMeta {
