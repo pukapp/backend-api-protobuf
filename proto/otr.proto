@@ -30,7 +30,7 @@ message NewOtrMessage {
     optional bool      native_push = 3 [default = true];
     optional bytes     blob        = 4;
     optional bool      unblock     = 100 [default = false];
-    optional bytes     ios_voip_data    = 106;
+    optional string     ios_voip   = 106;
 }
 
 message OtrAssetMeta {
